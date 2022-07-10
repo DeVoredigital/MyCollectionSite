@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Xbox",
+    "Description": "A Simple Xbox logo adorns this grey hat",
+    "ImageURL": "https://images.squarespace-cdn.com/content/v1/50645d87e4b016af4970adbc/1386154971795-UYUYW2SV4MLF0ELNIVN7/Venice+50pcnt+1.png?format=750w",
+    "Acquired": "2018-01-01"
+  },
+  {
+    "Name": "Blazor",
+    "Description": "A White hat ith Purple Blazon logo",
+    "ImageURL": "https://images.squarespace-cdn.com/content/v1/50645d87e4b016af4970adbc/1386154976739-ZMMOJ0CUQ9LMPIDXKKYG/Venice+50pcnt+4.png?format=750w",
+    "Acquired": "2019-04-20"
+  }
+
+]

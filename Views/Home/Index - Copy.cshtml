@@ -1,0 +1,22 @@
+﻿@model IEnumerable<MyCollectionSite.Models.CollectionItem>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">My Colletion</h1>
+   
+</div>
+@foreach (var item in Model)
+{
+
+    <div class="card" style="width: 18rem;">
+      <img src=".@item.ImageURL" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">@item.Name</h5>
+        <p class="card-text">@item.Description</p>
+        <a href="#" class="btn btn-primary">Go</a>
+      </div>
+      <div class="card-footer">@item.Acquired.ToString("MMM yyyy")</div>
+    </div>
+}
